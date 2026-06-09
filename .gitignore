@@ -1,0 +1,36 @@
+# File di backup
+*_BACKUP.md
+*.backup
+*.bak
+
+# File temporanei
+*.tmp
+*.temp
+~*
+
+# File di sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# File di sistema Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# File di log
+*.log
+
+# File personali/privati
+note_personali.md
+diario_allenamento.md
+
+# Cartelle da escludere
+node_modules/
+.vscode/
+.idea/
+
+# Made with Bob

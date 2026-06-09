@@ -1,4 +1,5 @@
 # 📊 DIAGRAMMA PERIODIZZAZIONE 6 MESI
+## VERSIONE BILANCIATA: Tonificazione + Performance
 
 ## Panoramica Visuale del Programma
 
@@ -6,32 +7,32 @@
 
 ```mermaid
 gantt
-    title Piano Allenamento 6 Mesi - Mezza Maratona 1:46
+    title Piano Allenamento 6 Mesi - Versione Bilanciata (Mezza 1:48-1:50)
     dateFormat YYYY-MM-DD
     section Mesociclo 1
-    Base Aerobica + Adattamento Forza :m1, 2026-06-09, 56d
+    Base Aerobica + Costruzione Muscolare :m1, 2026-06-09, 56d
     section Mesociclo 2
-    Soglia Anaerobica + Forza Trail :m2, after m1, 56d
+    Soglia Anaerobica + Ipertrofia Massima :m2, after m1, 56d
     section Mesociclo 3
-    Picco Performance :m3a, after m2, 42d
+    Picco Performance + Mantenimento Muscolo :m3a, after m2, 42d
     Tapering :m3b, after m3a, 14d
     section Gare
-    MEZZA MARATONA :milestone, after m3b, 1d
+    MEZZA MARATONA 1:48-1:50 :milestone, after m3b, 1d
 ```
 
 ---
 
-## Progressione Volume Corsa
+## Progressione Volume Corsa (RIDOTTO per Tonificazione)
 
 ```mermaid
 graph LR
-    A[Settimane 1-4<br/>32-38 km] --> B[Settimane 5-8<br/>38-42 km]
-    B --> C[Settimane 9-12<br/>40-45 km]
-    C --> D[Settimane 13-16<br/>42-48 km]
-    D --> E[Settimane 17-20<br/>45-52 km]
-    E --> F[Settimane 21-22<br/>48-52 km PICCO]
-    F --> G[Settimane 23-24<br/>30-35 km TAPERING]
-    G --> H[GARA<br/>21.1 km]
+    A[Settimane 1-4<br/>34-38 km<br/>Lungo MAX 18km] --> B[Settimane 5-8<br/>38-42 km<br/>Lungo MAX 20km]
+    B --> C[Settimane 9-12<br/>38-42 km<br/>Lungo MAX 20km]
+    C --> D[Settimane 13-16<br/>40-44 km<br/>Lungo MAX 22km]
+    D --> E[Settimane 17-20<br/>40-44 km<br/>Lungo MAX 22km]
+    E --> F[Settimane 21-22<br/>40-42 km<br/>Lungo MAX 20km]
+    F --> G[Settimane 23-24<br/>30-35 km<br/>TAPERING]
+    G --> H[GARA<br/>21.1 km<br/>1:48-1:50]
     
     style A fill:#90EE90
     style B fill:#90EE90
@@ -60,9 +61,9 @@ graph TD
     B --> B1[Spinta + Core<br/>45-60 min]
     C --> C1[Velocità Z4-Z5<br/>8-14 km]
     D --> D1[Recupero Completo<br/>Stretching]
-    E --> E1[Aerobico Z2-Z3<br/>10-16 km]
-    F --> F1[Trazione + Gambe<br/>45-60 min]
-    G --> G1[Resistenza Z1-Z2<br/>16-32 km]
+    E --> E1[Aerobico Z2-Z3<br/>10-14 km]
+    F --> F1[Trazione + Gambe<br/>60 min Ipertrofia]
+    G --> G1[Resistenza Z1-Z2<br/>16-22 km MAX 2h]
     H --> H1[Camminata/Bici/Nuoto<br/>30-45 min]
     
     style A fill:#4169E1,color:#fff
@@ -141,35 +142,41 @@ mindmap
   root((Piano 6 Mesi))
     Mesociclo 1
       Base Aerobica
-        Lungo 26 km
-        Volume 32-42 km
-      Adattamento Forza
+        Lungo 18-20 km MAX 2h
+        Volume 34-42 km
+      Costruzione Muscolare
         Push-up 25+ reps
-        Tecnica corretta
+        Ipertrofia iniziale
+        Proteine 165-180g
       Composizione
-        Perdita 0.5-1 kg
-        Routine nutrizionale
+        Perdita 0.5 kg grasso
+        Guadagno muscolo
+        Surplus giorni forza
     Mesociclo 2
       Soglia Anaerobica
         10 km sotto 55 min
-        Volume 38-48 km
-      Forza Trail
+        Volume 38-44 km
+      Ipertrofia Massima
         Pistol squat 5+ reps
-        Primo trail
+        Drop sets + superset
+        Focus petto/spalle
       Composizione
         Circonferenza -2 cm
-        Perdita 0.5-1 kg
+        Massa +0.5-1 kg
+        BCAA durante lunghi
     Mesociclo 3
       Picco Performance
-        10 km sotto 52 min
-        Volume 40-52 km
-      Forza Massima
+        10 km sotto 54 min
+        Volume 40-44 km
+        Lungo MAX 22 km
+      Forza Mantenimento
         Carico massimale
-        Potenza esplosiva
+        Preservare muscolo
       Obiettivo Finale
-        Mezza 1:46
-        Peso 73-74 kg
-        Vita -3-4 cm
+        Mezza 1:48-1:50
+        Peso 73.5-74.5 kg
+        Massa +1-1.5 kg
+        Corpo tonico
 ```
 
 ---
@@ -178,15 +185,15 @@ mindmap
 
 ```mermaid
 graph TD
-    A[Lunedì<br/>Full Body A] --> A1[2600-2700 kcal<br/>Manutenzione]
-    B[Martedì<br/>Ripetute] --> B1[2500-2600 kcal<br/>Leggero deficit]
-    C[Mercoledì<br/>Riposo] --> C1[2200-2300 kcal<br/>Deficit maggiore]
-    D[Giovedì<br/>Z2/Tempo] --> D1[2400-2500 kcal<br/>Deficit moderato]
-    E[Venerdì<br/>Full Body B] --> E1[2600-2700 kcal<br/>Manutenzione]
-    F[Sabato<br/>Lungo] --> F1[2500-2600 kcal<br/>Leggero deficit]
-    G[Domenica<br/>Recupero] --> G1[2200-2300 kcal<br/>Deficit maggiore]
+    A[Lunedì<br/>Full Body A] --> A1[2650-2750 kcal<br/>SURPLUS +100-200]
+    B[Martedì<br/>Ripetute] --> B1[2500-2600 kcal<br/>Manutenzione]
+    C[Mercoledì<br/>Riposo] --> C1[2300-2400 kcal<br/>Deficit moderato]
+    D[Giovedì<br/>Z2/Tempo] --> D1[2450-2550 kcal<br/>Leggero deficit]
+    E[Venerdì<br/>Full Body B] --> E1[2650-2750 kcal<br/>SURPLUS +100-200]
+    F[Sabato<br/>Lungo] --> F1[2500-2600 kcal<br/>Manutenzione]
+    G[Domenica<br/>Recupero] --> G1[2300-2400 kcal<br/>Deficit moderato]
     
-    A1 --> H[Media Settimanale<br/>2450-2550 kcal]
+    A1 --> H[Media Settimanale<br/>2500-2600 kcal<br/>Deficit netto -100-150]
     B1 --> H
     C1 --> H
     D1 --> H
