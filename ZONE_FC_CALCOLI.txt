@@ -1,0 +1,45 @@
+CALCOLO ZONE FREQUENZA CARDIACA PERSONALIZZATE
+
+Dati Atleta:
+- FCmax: 175 bpm
+- Soglia Anaerobica: 167 bpm
+- FC Riposo: 55 bpm
+- Età: 47 anni
+
+Metodo: Zone basate su % FCmax e Soglia
+
+ZONA 1 - RECUPERO ATTIVO (50-60% FCmax)
+- Range: 88-105 bpm
+- Uso: Defaticamento, recupero attivo domenica
+- Sensazione: Molto facile, puoi parlare normalmente
+
+ZONA 2 - AEROBICA BASE (60-70% FCmax)
+- Range: 105-123 bpm
+- Uso: Corsa lunga, Z2 giovedì
+- Sensazione: Facile, conversazione possibile
+- Ritmo: ~6:30-7:00 min/km
+
+ZONA 3 - TEMPO/SOGLIA (70-80% FCmax o 85-95% Soglia)
+- Range: 123-140 bpm (o 142-159 bpm basato su soglia)
+- Uso medio: 130-145 bpm
+- Uso: Tempo run, fartlek
+- Sensazione: Moderato-impegnativo, frasi brevi
+- Ritmo: ~5:30-6:00 min/km
+
+ZONA 4 - SOGLIA ANAEROBICA (80-90% FCmax o 95-100% Soglia)
+- Range: 140-158 bpm (o 159-167 bpm basato su soglia)
+- Uso medio: 150-165 bpm
+- Uso: Ripetute 800m-2000m
+- Sensazione: Impegnativo, parole singole
+- Ritmo: ~5:00-5:20 min/km
+
+ZONA 5 - MASSIMALE (90-100% FCmax)
+- Range: 158-175 bpm
+- Uso: Ripetute 400m, sprint finali
+- Sensazione: Molto duro, no conversazione
+- Ritmo: ~4:30-4:50 min/km
+
+RITMO GARA MEZZA MARATONA (Obiettivo 1:48-1:50)
+- Ritmo target: 5:07-5:13 min/km
+- FC target: 155-162 bpm (88-92% FCmax)
+- Zona: Alta Z3 / Bassa Z4
